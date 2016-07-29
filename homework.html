@@ -11,12 +11,72 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<p>this exercise looks like more work than it actually is. you can actually copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed.</p>
 
-		<p>vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+		<!-- NAV BAR -->
+		<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+		    <div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+			    <span class="sr-only">toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </button>
+			    <a class="navbar-brand">hello world</a>
+		    </div>
+		    <div id="navbar" class="navbar-collapse collapse">
+			    <ul class="nav navbar-nav">
+			    	<li class="active"> <a href="#">home</a></li>
+			    	<li><a href="#">about</a></li>
+			    	<li><a href="#">contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">register</a></li>
+					<li><a href="#">login</a></li>
+			    </ul>
+			</div>
+		</div>
+		</nav>
 
-		<p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl elementum ex.</p>
+		<!-- JUMBOTRON -->
+		<div class="jumbotron">
+			<div class="container">
+				<h1>brace yourself</h1>
+				<p>this exercise looks like more work than it actually is. you can actually copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed.</p>
+			</div>
+		</div>
+		<!-- CONTENT / ROW -->
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-sm-6 col-md-8"> .col-sm-6 .col-md-8  </div> -->
+				<div class="col-md-4">
+					<h2>heading</h2>
+					<p>vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button"> more details &raquo; </a>
+					</p>
 
-		<p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>
+				</div>
+				<div class="col-md-4">
+					<h2>heading</h2>
+					<p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl elementum ex.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button"> more details &raquo; </a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h2>heading</h2>
+					<p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button"> more details &raquo; </a>
+					</p>
+				</div>
+			</div> <!--end row -->
+
+			<hr>
+
+			<footer>
+				<p>you have the &copy; of your work regardless of an explicit notice</p>
+			</footer>
+
+		</div> <!--end container -->
+
+
 	</body>
 </html>
